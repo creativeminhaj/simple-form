@@ -1,0 +1,37 @@
+
+.container{
+    width: 300px;
+    height: 200px;
+    background:linear-gradient(to right, #ffad06, #ff105f);
+    margin: auto;
+    border-radius: 3px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #787171;
+    padding-bottom: 12px;
+    outline: none;
+    background: transparent;
+    padding-top: 10px;
+}
+.m-out {
+    width: 250px;
+    margin: auto;
+    padding: 20px 0px;
+}
+form button{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    border: 0;
+    background: black;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+form button:hover{
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    transition: .9s;
+}
